@@ -1,0 +1,109 @@
+/* ==GENERAL STYLING== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  background-color: black;
+  line-height: normal;
+  text-align: left;
+}
+
+/* ==HEADING STYLING== */
+
+h1 {
+  color: green;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 1px 0.5px 0px black;
+}
+
+h2 {
+  color: green;
+  font-size: 1.5rem;
+  text-shadow: 1px 0.5px 0px black;
+}
+
+h3 {
+  color: green;
+  font-size: 1.25rem;
+  text-shadow: 1px 0.5px 0px black;
+}
+
+/* ==FLEX ELEMENTS== */
+
+header {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==LINK STYLING== */
+
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* ==IMAGE STYLING== */
+
+img {
+  display: block;
+  margin: auto;
+}
+
+/* ==WRAPPER STYLING== */
+
+#wrapper {
+  width: 90%;
+  border: 2px solid green;
+  margin: auto;
+  background-color: beige;
+  border-radius: 1rem;
+}
+
+#sourcecenter {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+/* ==INLINE STYLING== */
+
+strong {
+  color: green;
+}
+
+em {
+  color: green;
+}
+
+/* ==COMPOUND STYLING== */
+
+p,
+h2,
+h3 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
